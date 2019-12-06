@@ -735,6 +735,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.7.4":
+  version "7.7.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.5.tgz#4b087f183f5d83647744d4157f66199081d17a00"
+  integrity sha512-UXhClKWTL7/vlYX49kETXti6VbpPJK/pdsIOqUMhUUES/lqThpNTsmC/0aU/IW4uozDUx17axjeqel7SCYF6EQ==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4", "@babel/template@^7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
@@ -5294,12 +5301,12 @@ gatsby-core-utils@^1.0.10:
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.10.tgz#f4309a8439e36b3e833c00b1903f381148df4c1b"
   integrity sha512-AeOrwjF4LiAHAqvrUkAFtvZHkLpKtF2gnIS/nezHDzIMq0SaZLHbdQiJcesyzZ6CcerjLIDWbD6MqxrTt6KkhA==
 
-gatsby-cypress@0.2.9:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/gatsby-cypress/-/gatsby-cypress-0.2.9.tgz#a9994c9d094344a963b4853f1aaed2dc3c87f8e9"
-  integrity sha512-MmP/I9HA3xVgy9i4Pa28+6DfSCIr0osi17E5sEjxAy5EsfsUeZd1xEcTsOnV7/uOmS9NZggVFNA2N+6W0ZRSeg==
+gatsby-cypress@0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/gatsby-cypress/-/gatsby-cypress-0.2.17.tgz#5ad263d2ceb4fc9b2d7695b38d5fe258d9d1da83"
+  integrity sha512-8xgUWor/Umao81H5avITln8RDdP09o8f6ERts2SW4jbaG9zfV3g/daGuAdJV2LsKbr4ch10NMOnQNtNYAF1OuA==
   dependencies:
-    "@babel/runtime" "^7.6.0"
+    "@babel/runtime" "^7.7.4"
 
 gatsby-graphiql-explorer@^0.2.18:
   version "0.2.18"
